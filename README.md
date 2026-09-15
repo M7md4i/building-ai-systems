@@ -1,8 +1,12 @@
 # Building AI Systems
 
-A structured repository for notes, references, snippets, and experiments about building production AI systems.
+A practical repository for organizing production-focused AI engineering knowledge: concepts, patterns, references, snippets, experiments, and real-world system design notes.
 
-> Current state: scaffold only. Content will be added gradually.
+> Current state: repository structure only. Topic content will be added gradually.
+
+## Scope
+
+This repository is intended to cover the engineering side of modern AI systems rather than model theory alone: retrieval, evaluation, agents, context engineering, security, observability, inference, LLMOps, performance, data pipelines, and production architecture.
 
 ## Structure
 
@@ -24,3 +28,18 @@ building-ai-systems/
 ├── 13-production-incidents/
 └── resources/
 ```
+
+## Repository model
+
+Each section may eventually contain a mix of:
+
+- engineering notes
+- production patterns
+- focused code snippets
+- small experiments and benchmarks
+- checklists
+- architecture examples
+- incident and failure-mode notes
+- high-quality external references
+
+The repository is intentionally kept modular so larger implementations can live in separate repositories and be linked from here when needed.
